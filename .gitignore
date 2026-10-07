@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Payroll data: timesheets, results and week CSVs hold employee hours
+*.pdf
+*.zip
+results_WE_*.json
+results_WE_*.tmp
+tt_week_*.csv
+!tt_week_2026-09-19.csv
+
+# Logs
+timetrax_entry_error.log
+*.log
+
+# Control dumps written by tt_cell.py list, tt_read.py and tt_dump.py
+tt_list_*.txt
+tt_win32*.txt
+tt_uia.txt
+
+# Editors and Windows
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

@@ -1,0 +1,18 @@
+# Expected Timetrax content for employee 355, week ending September 19, 2026.
+# page,project,phase,activity,sun,mon,tue,wed,thu,fri,sat
+direct,1905-01-M,1-04,ME,,,0.75,,1.25,1,
+direct,2404-01-M,1-04,ME,,,0.75,,1,1,
+direct,2128-10-M,1-05,ME,,0.5,3.25,4,0.5,,
+direct,2430-04-M,1-04,ME,,3,0.25,1,2.5,1,
+direct,2430-05-M,1-03,ME,,,0.25,0.5,1,,
+direct,2430-03-M,1-03,ME,,1,0.25,0.75,1.5,,
+direct,2430-10-M,1-03,ME,,,0.25,0.5,,,
+direct,2428-03-M,1-04,ME,,,0.25,,,,
+direct,1815-02-M,1-04,ME,,,1,,,2.5,
+direct,2430-07-M,1-03,ME,,1,0.25,1,,,
+direct,2430-01-M,1-04,ME,,,0.25,0.25,,,
+direct,2430-35-M,1-04,ME,,0.5,0.25,,0.25,,
+direct,2430-06-M,1-05,ME,,,,,,2,
+direct,2430-08-M,1-03,ME,,1,0.25,,,0.5,
+# overhead: the sheet says 0000-01-G, Timetrax's default lines showed 0000-00-G
+overhead,0000-00-G,2-06,IMTG,,1,,,,,
