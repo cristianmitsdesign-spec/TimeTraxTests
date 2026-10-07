@@ -31,7 +31,8 @@ EACH WEEK, STEP BY STEP
 -----------------------
 
 1. Open the program
-   Double-click "Timetrax Entry.bat" in this folder.
+   Right-click "Timetrax Entry.bat" in this folder and select "Run as administrator"
+   and answer yes to every prompt.
 
 2. Choose the timesheets
    Click "Choose folder..." and pick the folder of PDFs,
