@@ -12,7 +12,12 @@ employee and press one button.
 WHAT YOU NEED
 -------------
 
-- This computer, with Timetrax installed.
+- A computer with Timetrax installed.
+- Python 3 (version 3.10 or newer). If it is missing, Timetrax Entry says
+  so when you open it. Install it from https://www.python.org/downloads/
+  and tick "Add python.exe to PATH", or ask IT.
+  The first time on each computer, Timetrax Entry offers to install two
+  add-ons it needs. Type Y and press Enter. This needs the internet.
 - The week's timesheets, downloaded from the Admin screen of the timesheet
   app ("Export PDFs for Timetrax"). This is a zip file, or a folder of
   PDFs named like Kai_Nakamura_Timesheet_WE_2026.09.19.pdf.
@@ -122,10 +127,14 @@ GOOD TO KNOW
 FOR WHOEVER MAINTAINS THIS
 --------------------------
 
-Requirements: Python at c:\python314 with pywinauto and pypdf installed.
+Requirements: Python 3.10+ with pywinauto and pypdf installed.
 
 Files:
-  Timetrax Entry.bat     Starts the program (pythonw, no console window).
+  Timetrax Entry.bat     Starts the program. Finds Python (py launcher,
+                         then python on PATH, then the usual install
+                         folders; skips the Microsoft Store placeholder),
+                         offers to pip install pywinauto and pypdf if
+                         missing, then runs pythonw (no console window).
   timetrax_entry.py      The window, plus the per-employee run and check.
   tt_batches.py          Reads the PDFs (mai-timesheet-export.json
                          attachment), checks each batch's checksum,
